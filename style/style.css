@@ -1,0 +1,274 @@
+/* for font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* for font */
+
+/* common fonts */
+.poppins-thin {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+/* common fonts */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* nav part css start */
+
+.nav-menu ul li{
+   list-style: none;
+}
+
+.nav-menu ul a{
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    font-size: 1rem;
+    line-height: 1.5rem;
+ }
+
+.nav-menu ul{
+    display: flex;
+    gap: 34px;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.nav-container{
+    width: 1440px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0px 50px 0px;
+}
+
+.nav-h1{
+    font-size: 1.5rem;
+    color:rgba(58, 58, 58, 1);
+    line-height: 2.25rem;
+}
+/* nav part css end */
+
+/* banner part css start */
+
+.banner-container{
+    display: flex;
+    flex: 1;
+    /* gap: 20px; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner{
+    width: 1440px;
+    margin: 0px auto 70px auto;
+}
+
+.banner-image{
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:contain;
+    /* object-fit: cover; */
+    /* width: 50%; */
+    /* position:relative; */
+    /* flex: 1; */
+    padding: 50px 0px;
+    /* width: 475px; */
+}
+
+.banner-img{
+    width: 100%;
+    /* object-fit: cover;s */
+}
+
+.bannerh1{
+    font-size: 3.25rem;
+    line-height: 4.37rem;
+    color: rgb(58, 58, 58);
+}
+
+.bannerp{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 16px 0px;
+}
+
+.bannerbtn{
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+    border: none;
+    padding: 10px 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #ffffff;
+}
+
+.btn i{
+    margin-left: 20px;
+}
+/* banner part css end */
+
+/* sponsor css start */
+
+.sponsors{
+    /* margin-top: 70px; */
+    width: 1280px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    justify-items:space-between;
+    padding:36px 0px;
+}
+
+.shr{
+    width: 1300px;
+    margin: 0px auto;
+}
+/* sponsor css end */
+
+
+
+
+
+
+
+
+/* media query start  */
+@media screen and (max-width:576px) {
+    .nav-container{
+        width: 100%;
+    } 
+    
+    .nav-container{
+        flex-direction: column;
+    }
+
+    .banner{
+        width: 100%;
+    }
+
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+
+    .banner-content{
+        padding-left: 10px;
+    }
+
+    .banner-image img{
+        width: 100%;
+    }
+}
+/* media query end */
