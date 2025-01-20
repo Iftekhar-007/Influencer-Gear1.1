@@ -245,6 +245,43 @@ header{
 }
 /* sponsor css end */
 
+/* collection start */
+
+.collection{
+    width: 100%;
+}
+
+.collection-container{
+    width: 1280px;
+    margin: 0px auto;
+}
+
+.collecth1{
+    font-size: 1.75rem;
+    line-height: 4.20rem;
+    text-align: center;
+    color: rgba(58, 58, 58, 1);
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.collection-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+}
+/* collection end */
+
 
 
 
