@@ -23,13 +23,13 @@
     font-style: normal;
   }
   
-  .poppins-regular {
+  .poppins-regular, .price {
     font-family: "Poppins", serif;
     font-weight: 400;
     font-style: normal;
   }
   
-  .poppins-medium {
+  .poppins-medium, .cardh1 {
     font-family: "Poppins", serif;
     font-weight: 500;
     font-style: normal;
@@ -41,7 +41,7 @@
     font-style: normal;
   }
   
-  .poppins-bold {
+  .poppins-bold, .cardp {
     font-family: "Poppins", serif;
     font-weight: 700;
     font-style: normal;
@@ -249,6 +249,7 @@ header{
 
 .collection{
     width: 100%;
+    margin-bottom: 80px;
 }
 
 .collection-container{
@@ -261,6 +262,7 @@ header{
     line-height: 4.20rem;
     text-align: center;
     color: rgba(58, 58, 58, 1);
+    margin-bottom: 30px;
 }
 
 .card{
@@ -268,6 +270,7 @@ header{
     padding: 20px;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
+    /* max-width: 329px; */
 }
 
 .card img{
@@ -280,7 +283,102 @@ header{
     grid-template-rows: repeat(3, 1fr);
     gap: 30px;
 }
+
+.cardh1{
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    margin: 16px 0px 6px 0px;
+    color: rgba(24, 25, 31, 1);
+}
+
+.price{
+    font-size: 1.75rem;
+    line-height: 2rem;
+}
+
+.cardp{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: rgba(120, 120, 133, 1);
+    margin-top: 20px;
+}
+
+.fa-regular{
+    color: goldenrod;
+}
+
+.cardsbutton{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1280px;
+    margin: 50px auto 0px auto;
+}
+
+.cardbtn{
+    background-color: transparent;
+    border: none;
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+
 /* collection end */
+
+/* feature start */
+
+.featured{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.feature-container{
+    width: 1280px;
+    margin: 0px auto;
+    display: flex;
+    gap: 96px;
+    align-items: center;
+}
+
+.featureimg img{
+    width: 100%;
+}
+
+.featureh1{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    margin-bottom: 16px;
+    color: rgba(10, 8, 38, 1);
+}
+
+.featurep{
+    color: rgb(108, 108, 108);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    margin-bottom: 16px;
+}
+/* feature ends */
+
+/* footer starts */
+
+.footer{
+    width: 100%;
+    background-color:rgb(10, 8, 30);
+}
+
+.foot{
+    width: 1280px;
+    margin: 0px auto;
+    padding: 80px 0px;
+}
+
+.footh2, .footp{
+    color: #ffffff;
+    text-align: center;
+}
+/* footer ends */
 
 
 
@@ -317,12 +415,44 @@ header{
     }
 
     .sponsors{
-        grid-template-columns: repeat(4, auto);
-        justify-items: center;
-        gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        /* justify-items: center; */
+        gap: 5px;
     }
 
     .shr{
+        display: none;
+    }
+
+    .collecth1{
+        text-align: center;
+    }
+
+    .collection-card{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px;
+        /* justify-items: center;s */
+        /* width: 100%; */
+    }
+
+    .collection-container{
+        width: 100%;
+    }
+
+    .cardsbutton{
+        display: none;
+    }
+
+    .feature-container{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .feature-content{
+        text-align: center;
+    }
+
+    .foot{
         width: 100%;
     }
 }
